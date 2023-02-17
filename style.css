@@ -111,22 +111,25 @@ ul.menu-list>li>a{
 
 .grid-imgs{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,minmax(50%,1fr));
     gap: 10px;
-    max-height: 80%;
-    max-width: 80%;
+    flex: 1;
+    /* max-height: 80%;
+    max-width: 80%; */
+
 }
 /* .grid-img{
 } */
-/* .grid-img img{
+.grid-img img{
     width: 100%;
     height: 100%;
-} */
+}
 .quick-list-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    flex: 1;
 }
 .quick-list-content>button{
     align-self: flex-start;
