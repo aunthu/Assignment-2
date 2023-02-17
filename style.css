@@ -230,6 +230,7 @@ ul.menu-list>li>a{
     border-radius: 8px;
     max-width: 150px;
     max-height: 150px;
+    flex: 1;
     text-align: center;
     transition: transform .4s ease;
 }
